@@ -2,89 +2,121 @@
 //
 
 #include <iostream>
-
+#include <string>
 
 
 using namespace std;
 
 const int con = 5;
+const int n = 3;
 
 int main(int arg)
 {
-    //int a = 1;
-    //int f = 4;
-    //int b = 4;
-    //long int l = 8;
+    ////int a = 1;
+    ////int f = 4;
+    ////int b = 4;
+    ////long int l = 8;
 
-    //char c = 'd';
+    ////char c = 'd';
 
-    //bool q = false;
+    ////bool q = false;
 
-    //const int PI = 12;
+    ////const int PI = 12;
 
-    //float del = 12.3;
+    ////float del = 12.3;
 
-    //int result = 4 * ++a;//8
+    ////int result = 4 * ++a;//8
 
-    //a = 100;
+    ////a = 100;
 
 
-    //for (char i = 0; i < 10; i += 1) {
-    //    cout << i << endl;
+    ////for (char i = 0; i < 10; i += 1) {
+    ////    cout << i << endl;
 
-    //}
-        
-    //int number = 5;
-    //const int& refNumber = number;
-    //std::cout << refNumber << std::endl; // 5
-    //number += 2;
-    //cout << refNumber; // 7
+    ////}
+    //    
+    ////int number = 5;
+    ////const int& refNumber = number;
+    ////std::cout << refNumber << std::endl; // 5
+    ////number += 2;
+    ////cout << refNumber; // 7
 
-    //int arr[] = { 1,2,3 };
-    //int arr2[3];
-    //cout << arr2[0] << endl;
-    //arr2[0] = 'f';
-    //cout << arr2[0];
+    ////int arr[] = { 1,2,3 };
+    ////int arr2[3];
+    ////cout << arr2[0] << endl;
+    ////arr2[0] = 'f';
+    ////cout << arr2[0];
 
-    /*
-    cout << endl << "size" << size << endl;*/
+    ///*
+    //cout << endl << "size" << size << endl;*/
+
+
+    ////int size = sizeof(arr) / sizeof(arr[0]);
+    ////for(int i = 0; i < size; i++) {
+    ////    cout << arr2[i];
+    ////}
+    //const int n = 100;
+    //int a = 0; 
+    //int arr[n] = {};
+    //int i = 0;
+    //cin >> a;
 
 
     //int size = sizeof(arr) / sizeof(arr[0]);
-    //for(int i = 0; i < size; i++) {
-    //    cout << arr2[i];
+
+    //for (int j = 0; j < size; j++) {
+    //    arr[j] = -10;
     //}
-    const int n = 100;
-    int a = 0; 
-    int arr[n] = {};
-    int i = 0;
-    cin >> a;
 
+    //while (a > 0) {
+    //    arr[i] =  a % 10;
+    //    a /= 10;
+    //    i += 1;
+    //}
 
-    int size = sizeof(arr) / sizeof(arr[0]);
+    //for (int j = 0; j < i; j++) {
+    //    //if (arr[j] < 0) {
+    //    //    break;
+    //    //}
+    //    cout << arr[j] << endl;
 
-    for (int j = 0; j < size; j++) {
-        arr[j] = -10;
-    }
+    //}
 
-    while (a > 0) {
-        arr[i] =  a % 10;
-        a /= 10;
-        i += 1;
-    }
+ //   char string[255];
+ //   char input = ' ';
+ //   int i = 0;
+ ///*   char string2[] = "dfghj";*/
 
-    for (int j = 0; j < i; j++) {
-        //if (arr[j] < 0) {
-        //    break;
-        //}
-        cout << arr[j] << endl;
+ //   cin >> input;
+ //   while (input != '0') {
+ //       string[i] = input;
+ //       i += 1;
+ //       cin >> input;
+ //   }
+ //   string[i] = '\0';
 
-    }
+ //   cout << endl << strlen(string);
 
+    //int matrix[n][n];
 
+    //for (int i = 0; i < n; i++) {
+    //    for (int j = 0; j < n; j++) {
+    //        cin >> matrix[i][j];
+    //    }
+    //}
+
+    //string str = "f";
+    //str.append("df");
+    //int size = str.length();
+    //for (int i = 0; i < size; i++) {
+    //    cout << str[i];
+    //    cout << endl;
+    //}
+
+    int arra[] = { 1, 2, 3, 4 };
+
+    cout << sizeof(*arra);
     return 0;
-
-
 }
 
 
